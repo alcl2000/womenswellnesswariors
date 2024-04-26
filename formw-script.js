@@ -32,7 +32,7 @@ window.onload = function () {
 
 // SUBMIT NAME
 nameButton.addEventListener("click", () => {
-  checkUsersName();
+  //checkUsersName();
   // Set user name in local storage
   if (usersName.value === ""){
     const usersName_string = JSON.stringify("Dot");
