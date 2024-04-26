@@ -24,16 +24,42 @@ Our app, 'Dot.' created for the CodeInstitute Women's Wellness hybrid hackathon
 ## Design
 
 - Colour Palette 
-![Colour Palette](docs\dot_color_palette.png)
-![Text Choices, the font Libre Calson font](docs\font-choices-1.png)
-![Font Choices, the font Monsterrat](docs\font-choices-2.png)
+![Colour Palette](docs/dot_color_palette.png)
+![Text Choices, the font Libre Calson font](docs/font-choices-1.png)
+![Font Choices, the font Monsterrat](docs/font-choices-2.png)
 ###  Wireframes
-![Home page wireframe](docs\dothome.png)
-![About us wireframe](docs\dotaboutus.png)
-![Calender Wireframe](docs\dotcalender.png)
-![Form wireframe](docs\dotquiz.png)
+![Home page wireframe](docs/dothome.png)
+![About us wireframe](docs/dotaboutus.png)
+![Calender Wireframe](docs/dotcalender.png)
+![Form wireframe](docs/dotquiz.png)
 
 ### Features
+- Landing page
+![Landing Page](docs/Landing_page.jpg)
+
+On landing page there's an informative box where information are found why is good to track the menstrual cycle, what you expect to get once you start using the webpage and the START button which will take the user to the form page to insert data.
+
+- Form page and input fields
+![Form page](docs/form_page.png)
+![Name Input](docs/name.jpg)
+![Period Start Date](docs/period_start_date.jpg)
+![Period Length](docs/period_length.jpg)
+![Cycle length](docs/cycle_length.jpg)
+
+The Form page will populate some input fields, one at the time requesting the name of the user, the date the period starts, how long the period lasts and how long the cycle is. These data will then be stored in LOCAL STORAGE as an array object so it can be used for feuture implementations.
+
+- Calendar page
+![Calendar page](docs/calendar_page.jpg)
+![Calendar page with info](docs/calendar_with_info.jpg)
+
+In the calendar page the user can see their mesrtual cycle with some information regarding each phase. When the links on the site are clicked the information regarding that phase are shown.
+
+- About Us
+![About us](docs/about_us_page.jpg)
+
+The team who build the webpage with links in GitHUb and LinkIn.
+
+
 
 
 ### Future Features
