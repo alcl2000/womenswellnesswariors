@@ -11,7 +11,7 @@ Our app, 'Dot.' created for the CodeInstitute Women's Wellness hybrid hackathon
 - Promote inclusivity and accessibility by designing the app to be user-friendly for individuals of all ages, genders, and backgrounds, with consideration for diverse cultural perspectives and experiences.
 - Provide accurate predictions and insights into users' menstrual cycles, enabling them to plan and prepare for their periods and associated symptoms.
 
-## User stories 
+### User stories 
  - As a user, I want to be able to easily log my menstrual cycle start and end dates, so I can accurately track my period over time.
   - Need effectively met through the "Dot" quiz and calender
 - As a user, I want the app to provide insights and predictions about my cycle based on the data I input, so I can plan activities and events accordingly.
@@ -19,7 +19,16 @@ Our app, 'Dot.' created for the CodeInstitute Women's Wellness hybrid hackathon
 - As a user, I want access to educational resources about menstrual health and wellness, so I can learn more about my body and how to care for it during my cycle.
  - Need met with the addition of advice columns on the side
 - As a user, I want the app to offer customizable settings for cycle length and fertility tracking, so it can adapt to my individual needs and preferences.
- - User is able to change the length of their period and cycle if it falls outside of median perameters
+ - User is able to change the length of their period and cycle if it falls outside of median parameters
+
+## Design
+
+- Colour Palette 
+![Colour Palette](docs\dot_color_palette.png)
+![Text Choices, the font Libre Calson font](font-choices-1.png)
+![Font Choices, the font Monsterrat](font-choices-2.png)
+###  Wireframes
+
 
 ### Features
 
