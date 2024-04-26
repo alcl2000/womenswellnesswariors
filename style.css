@@ -293,3 +293,7 @@ h2 {
   overflow-y: scroll;
   height: 30rem;
 }
+
+#calendar-section {
+  overflow: scroll;
+}
