@@ -1,8 +1,15 @@
 # Women's wellness warriors
 
-[Live Site](https://alcl2000.github.io/womenswellnesswarriors/)
+### [Live Site](https://alcl2000.github.io/womenswellnesswarriors/)
 
 Our app, 'Dot.' created for the CodeInstitute Women's Wellness hybrid hackathon
+
+## Project Goals
+
+- Dot. is an app designed to make period tracking easy and display information in an accessible format
+- Enhance users' understanding of their menstrual health by providing educational resources and insights into common symptoms, cycle patterns, and wellness practices.
+- Promote inclusivity and accessibility by designing the app to be user-friendly for individuals of all ages, genders, and backgrounds, with consideration for diverse cultural perspectives and experiences.
+- Provide accurate predictions and insights into users' menstrual cycles, enabling them to plan and prepare for their periods and associated symptoms.
 
 ## User stories 
  - As a user, I want to be able to easily log my menstrual cycle start and end dates, so I can accurately track my period over time.
@@ -13,6 +20,8 @@ Our app, 'Dot.' created for the CodeInstitute Women's Wellness hybrid hackathon
  - Need met with the addition of advice columns on the side
 - As a user, I want the app to offer customizable settings for cycle length and fertility tracking, so it can adapt to my individual needs and preferences.
  - User is able to change the length of their period and cycle if it falls outside of median perameters
+
+### Features
 
 
 ### Future Features
