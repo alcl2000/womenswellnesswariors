@@ -76,6 +76,9 @@
           <label class="form-label" for="users-name">What would you like to be called?</label>
           <input id="users-name" name="users-name" type="text" class="form-control input-fields" placeholder="name"
             aria-label="user-name" required />
+            <div class="invalid-feedback">
+              Box must not be empty
+            </div>
           <button id="name-button" class="submit-button">Submit</button>
         </div>
       </div>
@@ -85,7 +88,10 @@
         <div class="card-body">
           <label class="form-label" for="period-start-date">When did your last period start?</label>
           <input id="period-start-date" name="period-start-date" type="date" class="form-control input-fields"
-            placeholder="" aria-label="period-start-date" required />
+            placeholder="5" aria-label="period-start-date" required />
+            <div class="invalid-feeback">
+              Date must not be in the future
+            </div>
           <button id="period-start-date-button" class="submit-button">
             Next
           </button>
@@ -97,7 +103,10 @@
         <div class="card-body">
           <label class="form-label" for="period-length">How many days does your period usually last?</label>
           <input id="period-length" name="period-length" type="number" class="form-control input-fields" placeholder="5"
-            aria-label="period-length" required />
+            aria-label="period-length" value="5" required />
+            <div class="invalid-feedback">
+              Value must not be 0 
+            </div>
           <button id="period-length-button" class="submit-button">
             Next
           </button>
@@ -109,7 +118,10 @@
         <div class="card-body">
           <label class="form-label" for="cycle-length">How many days does your cycle usually last?</label>
           <input id="cycle-length" name="cycle-length" type="number" class="form-control input-fields" placeholder="28"
-            aria-label="cycle-length" required />
+            aria-label="cycle-length" value="28" />
+            <div class="invalid-feedback">
+              Value must not be 0
+            </div>
           <button id="cycle-length-button" class="submit-button">Next</button>
         </div>
       </div>
