@@ -34,8 +34,17 @@ window.onload = function () {
 nameButton.addEventListener("click", () => {
   //checkUsersName();
   // Set user name in local storage
-  const usersName_string = JSON.stringify(usersName.value);
-  localStorage.setItem("dot_username", usersName_string);
+  if (usersName.value === ""){
+    const usersName_string = JSON.stringify("Dot");
+    localStorage.setItem("dot_username", usersName_string);
+    }
+  else{
+    const usersName_string = JSON.stringify(usersName.value);
+    localStorage.setItem("dot_username", usersName_string);
+  }
+  
+
+  //checkUsersName();
   // Scale out name card
   nameCard.classList.add("scale-out-center");
   setTimeout(function () {
@@ -70,9 +79,17 @@ periodStartDateButton.addEventListener("click", () => {
 
 // SUBMIT PERIOD LENGTH
 periodLengthButton.addEventListener("click", () => {
-  // Set period length in local storage
-  const periodLength_string = JSON.stringify(periodLength.value);
-  localStorage.setItem("dot_period_length", periodLength_string);
+  // Set period length in local storage;
+  if (periodLength.value === "0"){
+    const usersName_string = JSON.stringify("5");
+    localStorage.setItem("dot_username", usersName_string);
+  } else if(periodLength.value === ""){
+    periodLength.value = 5;
+  }
+  else{
+    const periodLength_string = JSON.stringify(periodLength.value)
+    localStorage.setItem("dot_period_length", periodLength_string);
+  }
   // Scale out period length card
   periodLengthCard.classList.remove("scale-in-center");
   periodLengthCard.classList.add("scale-out-center");
@@ -88,10 +105,21 @@ periodLengthButton.addEventListener("click", () => {
 });
 
 // SUBMIT CYCLE LENGTH
+
 cycleLengthButton.addEventListener("click", () => {
   // Set cycle length in local storage
-  const cycleLength_string = JSON.stringify(cycleLength.value);
-  localStorage.setItem("dot_cycle_length", cycleLength_string);
+  if (periodLength.value === "0"){
+    alert("Value must not be 0");
+  } else if(periodLength.value === ""){
+    periodLength.value = 28;
+    const cycleLength_string = JSON.stringify(cycleLength.value);
+    localStorage.setItem("dot_cycle_length", cycleLength_string);
+  }
+  else{
+    const cycleLength_string = JSON.stringify(cycleLength.value);
+    localStorage.setItem("dot_cycle_length", cycleLength_string);
+  }
+  
   // Set localStorage
   // const userDataSerialized = JSON.stringify(userData);
   // localStorage.setItem("userData", userDataSerialized);
