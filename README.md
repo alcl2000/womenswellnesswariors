@@ -25,10 +25,13 @@ Our app, 'Dot.' created for the CodeInstitute Women's Wellness hybrid hackathon
 
 - Colour Palette 
 ![Colour Palette](docs\dot_color_palette.png)
-![Text Choices, the font Libre Calson font](font-choices-1.png)
-![Font Choices, the font Monsterrat](font-choices-2.png)
+![Text Choices, the font Libre Calson font](docs\font-choices-1.png)
+![Font Choices, the font Monsterrat](docs\font-choices-2.png)
 ###  Wireframes
-
+![Home page wireframe](docs\dothome.png)
+![About us wireframe](docs\dotaboutus.png)
+![Calender Wireframe](docs\dotcalender.png)
+![Form wireframe](docs\dotquiz.png)
 
 ### Features
 
