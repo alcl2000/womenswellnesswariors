@@ -24,14 +24,14 @@ Our app, 'Dot.' created for the CodeInstitute Women's Wellness hybrid hackathon
 ## Design
 
 - Colour Palette 
-![Colour Palette](docs\dot_color_palette.png)
-![Text Choices, the font Libre Calson font](docs\font-choices-1.png)
-![Font Choices, the font Monsterrat](docs\font-choices-2.png)
+![Colour Palette](docs/dot_color_palette.png)
+![Text Choices, the font Libre Calson font](docs/font-choices-1.png)
+![Font Choices, the font Monsterrat](docs/font-choices-2.png)
 ###  Wireframes
-![Home page wireframe](docs\dothome.png)
-![About us wireframe](docs\dotaboutus.png)
-![Calender Wireframe](docs\dotcalender.png)
-![Form wireframe](docs\dotquiz.png)
+![Home page wireframe](docs/dothome.png)
+![About us wireframe](docs/dotaboutus.png)
+![Calender Wireframe](docs/dotcalender.png)
+![Form wireframe](docs/dotquiz.png)
 
 ### Features
 
@@ -57,6 +57,41 @@ Due to time constraints, not all of our planned features could make into the fin
 - Footer
     - The footer floats on several pages due to our use of flex boxes 
 
+### Deployment
+
+#### Deployment to github pages
+To launch a website on GitHub Pages, follow these steps:
+
+- Create a Repository:
+    -   Go to GitHub and sign in to your account.
+    - Click on the "+" sign in the top-right corner and select "New repository."
+    - Name your repository using the following convention: <username>.github.io. Replace <username> with your GitHub username.
+    - Choose whether the repository will be public or private. For GitHub Pages, it needs to be public.
+- Add Your Website Files:
+    - Upload or push your website files to the repository. This typically includes HTML, CSS, JavaScript, images, etc.
+    - If you're using a static site generator like Jekyll, make sure to commit the generated files to your repository.
+- Configure GitHub Pages:
+    - Go to your repository on GitHub.
+    - Click on the "Settings" tab.
+    - Scroll down to the "GitHub Pages" section.
+    - Under "Source," select the branch that contains your website files
+
+#### Forking/Cloning a repository
+- Navigate to the Repository:
+    - Go to the GitHub repository you want to fork by entering its URL in your browser or searching for it on GitHub.
+- Locate the Fork Button:
+    - On the top-right corner of the repository page, you'll find a "Fork" button. Click on it.
+- Choose the Destination:
+    - A dialog will appear asking where you want to fork the repository. Select your own GitHub account or an organization where you have permission to fork repositories.
+- Fork the Repository:
+    - Click on the "Fork" button. GitHub will now create a copy of the repository in your account or the chosen organization.
+- Wait for the Forking Process:
+    - Depending on the size of the repository and the current GitHub load, the forking process may take a few moments. Once completed, you'll be redirected to your forked repository.
+- Start Working:
+    - You now have your own copy (fork) of the repository. You can clone it to your local machine, make changes, commit those changes, and push them back to your forked repository. You can also open pull requests to contribute changes back to the original repository.
+
+
+
 ### Tools Used
 
 [Sweet Alert](https://sweetalert2.github.io/)  
@@ -65,4 +100,4 @@ Due to time constraints, not all of our planned features could make into the fin
 [FullCalendar](https://fullcalendar.io/)
 [Circular Dial](https://codepen.io/robertkoons/pen/NByBMg)
 [ChatGPT](https://chat.openai.com/) (for creation of the logo and various issue consulting)
-
+[Github Pages]()
